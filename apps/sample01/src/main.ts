@@ -4,12 +4,10 @@ import { setupGsap } from './setup.ts';
 import './css/app.css';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <h1 class="title">開発合宿 2025 / Development camp</h1>
-
-  
 
 
-<section class="normal Section">
+<section class="Top Section">
+    <h1 class="title">開発合宿 2025 / Development camp</h1>
 
   
   <div class="Info Container">
@@ -65,7 +63,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 </section>
 
-<section class="normal Section">
+<section class="Bottom Section">
   <div class="Container">
     <h2 class="normal-heading heading">普通のセクション</h2>
     <p class="">
