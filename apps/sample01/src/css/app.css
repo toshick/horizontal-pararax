@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #eeebdd;
+  color: #1b1717;
+  font-family: Avenir, 'Helvetica neue', Helvetica, sans-serif;
+}
+
+/* 共通 */
+.Section {
+  width: 100%;
+  padding: 30px 0;
+  font-size: 40px;
+  min-height: 100vh;
+}
+.Container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.Info {
+  margin-top: 64px;
+  font-size: 60px;
+}
+
+.Goal {
+  margin-top: 64px;
+  font-size: 60px;
+}
+
+.About {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+/* タイトル */
+.title {
+  padding: 200px 0 20px;
+  font-size: 82px;
+  text-align: center;
+}
+
+/* 横スクロールセクション */
+.SideScroll {
+  background-color: #1b1717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SideScrollHeading {
+  color: #eeebdd;
+}
+
+.SideScrollListWrapper {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+.SideScrollList {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: flex;
+  /* gap: 0 2px; */
+}
+
+.SideScrollItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 60vh;
+  background-color: #eeebdd;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  p {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 122px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 60px;
+  }
+}
+
+.SideScrollItem + .SideScrollItem {
+  margin-left: 16px;
+}
