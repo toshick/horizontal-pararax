@@ -1,3 +1,4 @@
+import luxy from 'luxy.js';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -22,4 +23,8 @@ export function setupGsap() {
       },
     });
   }
+}
+
+export function setupLuxy() {
+  luxy.init();
 }

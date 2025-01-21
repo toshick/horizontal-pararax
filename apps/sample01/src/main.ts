@@ -1,10 +1,9 @@
 // import typescriptLogo from './typescript.svg';
 // import viteLogo from '/vite.svg';
-import { setupGsap } from './setup.ts';
+import { setupGsap, setupLuxy } from './setup.ts';
 import './css/app.css';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-
 
 <section class="Top Section">
     <h1 class="title">開発合宿 2025 / Development camp</h1>
@@ -65,12 +64,25 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 <section class="Bottom Section">
   <div class="Container">
-    <h2 class="normal-heading heading">普通のセクション</h2>
-    <p class="">
-      テキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよテキストが入りますよ
+    <h2 class="normal-heading heading">Lib</h2>
+    <p>
+      https://gsap.com/
     </p>
+    <p>https://github.com/min30327/luxy.js</p>
   </div>
 </section>
+
+
+<article id="luxy">
+  <img src="/imgs/cloud.png" class="Cloud Cloud1 luxy-el" data-horizontal="1" data-speed-x="-55" />
+  <img src="/imgs/cloud.png" class="Cloud Cloud2 luxy-el" data-horizontal="1" data-speed-x="-30" />
+  <img src="/imgs/cloud2.png" class="Cloud Cloud3 luxy-el" data-horizontal="1" data-speed-x="13" />
+  <img src="/imgs/cloud2.png" class="Cloud Cloud4 luxy-el" data-horizontal="1" data-speed-x="12" />
+  <img src="/imgs/cloud.png" class="Cloud Cloud5 luxy-el" data-horizontal="1" data-speed-x="-4" />
+  <img src="/imgs/cloud.png" class="Cloud Cloud6 luxy-el" data-horizontal="1" data-speed-x="-12" />
+  <img src="/imgs/cloud.png" class="Cloud Cloud7 luxy-el" data-horizontal="1" data-speed-x="6" />
+</article>
 `;
 
 setupGsap();
+setupLuxy();

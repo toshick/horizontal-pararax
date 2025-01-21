@@ -76,7 +76,7 @@ body {
 .SideScroll {
   /* background-color: #1b1717; */
   /* background-color: rgba(255, 255, 255, 0.6); */
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,4 +139,53 @@ body {
 
 .SideScrollItem + .SideScrollItem {
   margin-left: 16px;
+}
+
+#luxy {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Cloud {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Cloud1 {
+  width: 300px;
+  top: 400px;
+  left: 20%;
+}
+.Cloud2 {
+  width: 240px;
+  top: 1200px;
+  left: 60%;
+}
+.Cloud3 {
+  top: 3000px;
+  left: 40px;
+  width: 340px;
+}
+.Cloud4 {
+  top: 3600px;
+  left: 50px;
+  width: 240px;
+}
+
+.Cloud5 {
+  top: 4600px;
+  left: 80%;
+  width: 260px;
+}
+.Cloud6 {
+  top: 5600px;
+  left: 600px;
+  width: 260px;
+}
+.Cloud7 {
+  top: 6600px;
+  left: 1000px;
+  width: 260px;
 }
