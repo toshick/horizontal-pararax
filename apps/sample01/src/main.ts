@@ -69,6 +69,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       https://gsap.com/
     </p>
     <p>https://github.com/min30327/luxy.js</p>
+
+    <h2 class="normal-heading heading">Repo</h2>
+    <p>https://github.com/toshick/horizontal-pararax</p>
   </div>
 </section>
 
